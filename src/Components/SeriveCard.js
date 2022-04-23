@@ -12,7 +12,7 @@ function SeriveCard(props) {
                     {
                         props.detailsData.features.map((list)=>{
                             return (
-                                <li>{list.name}</li>
+                                <li className="list-item">{list.name}</li>
                             )
                         })
                     }

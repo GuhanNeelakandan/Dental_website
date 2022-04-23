@@ -324,7 +324,7 @@ p{
   text-align: center;
   color: #88d8e5;
 }
-.list li{
+.list,.list-item{
   padding-left: 0px;
   list-style-type: none;
   margin-bottom: 15px;
@@ -350,6 +350,9 @@ p{
 .pricing-img{
   width: 250px;
   height: 250px;;
+}
+.pricing-img:hover{
+  transform:scale(1.1)
 }
 .price-package{
   margin-top: 80px!important;

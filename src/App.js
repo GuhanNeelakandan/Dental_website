@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Service from './Components/Service';
+import Pricing from './Components/Pricing';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<About/>}/>
         <Route path="/service" element={<Service/>}/>
+        <Route path="/pricing" element={<Pricing/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

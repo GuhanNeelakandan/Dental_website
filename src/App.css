@@ -324,15 +324,70 @@ p{
   text-align: center;
   color: #88d8e5;
 }
-ul li{
+.list li{
+  padding-left: 0px;
   list-style-type: none;
   margin-bottom: 15px;
-}
-.list{
-  padding-left: 0px;
 }
 .ser-img{
   width: 70px;
   height:70px;
   align-self: center;
+}
+/* *************************pricing************************************* */
+.price-head{
+  color: #88d8e5;
+  margin-bottom: 20px;
+  font-family: 'Varela Round',Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 40px;
+  margin-top:40px
+}
+.price-row{
+  align-items: flex-start;
+  justify-content: center;
+}
+.pricing-img{
+  width: 250px;
+  height: 250px;;
+}
+.price-package{
+  margin-top: 80px!important;
+  margin-bottom: 80px!important;
+  display: flex;
+  align-self: center;
+  justify-content:center;
+  justify-items: center;
+  align-items: flex-start;
+  text-align: center;
+  color: #9c9c9c;
+  font-family: 'Varela Round',Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.price-subhead{
+  padding-left: 32px;
+  color: #88d8e5;
+}
+.package{
+  margin-top: 100px!important;
+  margin-bottom: 80px!important;
+  display: flex;
+  flex-direction: column;
+  color: #9c9c9c;
+  font-size: 17px;
+  font-family: 'Varela Round',Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+.circle{
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: #88d8e5;
+  border: 2px solid #88d8e5;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  font-size: 15px;
+  margin-right: 20px;
 }

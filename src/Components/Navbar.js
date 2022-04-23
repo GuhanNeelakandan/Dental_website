@@ -26,7 +26,7 @@ function Navbar() {
                                 <Link className="nav-link" to={"service"}><img className="nav-image" src={Service}/><br/>Services</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" to={"skill"}><img className="nav-image" src={pricing}/><br/>Pricing</a>
+                                <Link className="nav-link" to={"pricing"}><img className="nav-image" src={pricing}/><br/>Pricing</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" to={"project"}><img className="nav-image" src={insurance}/><br/>Insurance</a>

@@ -14,8 +14,10 @@ function Header() {
           <div className="mt-2 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 mobile"><img className="time" src={Call} /> Call : 7200943938 <img className="time" src={Whatsapp} />8667085227</div>
           <div className="mt-2 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 mail"><img className="time" src={Mail} /> neosmiledentalomr@gmail.com</div>
         </div>
-        <div className="text-center">
-          <img className="logo" src={smile}/>
+        <div className="text-center ">
+          <img className="logo" src={smile}/><br></br>
+          <h1 className="top-logo">NEOSMILE</h1>
+          <h5 className="logo-subhead">Dental &amp; implant center</h5>
         </div>
       </div>
   )

@@ -20,7 +20,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link home" to={"/"}><img className="nav-image" src={about}/><br/>About</Link>
+                                <Link className="nav-link home" to={"about"}><img className="nav-image" src={about}/><br/>About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={"service"}><img className="nav-image" src={Service}/><br/>Services</Link>
@@ -35,7 +35,7 @@ function Navbar() {
                                 <a className="nav-link" to={"/achieve"}><img className="nav-image" src={review}/><br/>Testimonials</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" to={"contact"}><img className="nav-image" src={contact}/><br/>Contact</a>
+                                <Link className="nav-link" to={"contact"}><img className="nav-image" src={contact}/><br/>Contact</Link>
                             </li>
                         </ul>
                     </div>

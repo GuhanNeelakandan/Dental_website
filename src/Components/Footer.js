@@ -29,8 +29,8 @@ function Footer() {
                 <div className="text-center mt-4 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
                     <h4 className="touch">Get in touch</h4>
                     <h5 className="whatsapp">Via whatsapp</h5>
-                    <a className="btn btn-sm-2 btn-warning m-2 butt" href="https://api.whatsapp.com/send?phone=7708282837 text=Hello this is the starting message">7708282837</a>
-                    <h5 className="call">or call 7200943938<br/>neosmiledentalomr@gmail.com</h5>
+                    <a className="btn btn-sm-2 btn-warning m-2 butt" href="https://wa.me/7708282837" target="_blank">7708282837</a>
+                    <h5 className="call">or call 7200943938<br/><a className="email" id="mail" href="mailto:neosmiledentalomr@gmail.com">neosmiledentalomr@gmail.com</a></h5>
                 </div>
                 <div className="footer-container">
                     <p className="copy-right">

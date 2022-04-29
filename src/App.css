@@ -8,14 +8,23 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Tapestry', cursive;
 }
+#show{
+  background: #88d8e5;
+  color: #ffffff;
+}
+@media screen and (min-width: 750px) {
+  #show{
+    display: none;
+  }
+}
 .top-container{
   display: flex;
   flex-direction: column;
   align-self: stretch;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.6);
-  padding: 10px 16px;
-  font-size: 12px;
+  padding: 0px 16px;
+  font-size: 15px;
   font-weight: 500;
   color: #88d8e5;
   font-family: 'My Soul', cursive;
@@ -35,9 +44,6 @@ body{
   height:90px;
   margin-top: 10px;
 }
-.timing{
-  border-right: 1px solid black;
-}
 .time{
   width: 20px;
   height: 20px;
@@ -46,12 +52,10 @@ body{
 .mobile{
   display: flex;
   justify-content: center;
-  border-right: 1px solid black;
 }
 .mail{
   display: flex;
   justify-content: center;
-  border-right: 1px solid black;
 }
 .bold{
   font-weight: 400;
@@ -66,10 +70,11 @@ body{
   width: 30px;
   height: 30px;
 }
-.nav-bar{
-  
+.navbar-nav{
+  position: relative;
 }
 .nav{
+
    top: 0;
    background-color: rgba(255, 255, 255, 0.5);
    font-family: 'My Soul', cursive;
@@ -92,6 +97,7 @@ nav ul li{
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: #9c9c9c;
+  
 }
 .navbar-brand{
   max-width:17.25rem;
@@ -104,6 +110,8 @@ nav ul li{
 .navbar-nav> li > a:hover{
   border-top: 0.1675rem solid rgb(136, 216, 229);
 }
+
+
 /* ************************Home**************************** */
 
 /* ****************Footer********************** */
@@ -169,6 +177,10 @@ nav ul li{
   color: #ffffff;
   font-size: 10px;
 }
+a #mail{
+  text-decoration: none;
+  color: white;
+}
 /* ***************************About********************************** */
 .about-row{
   background-color: #88d8e5;
@@ -190,6 +202,7 @@ nav ul li{
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  position: relative;
 }
 .about-page{
   position: absolute;
@@ -205,6 +218,9 @@ nav ul li{
 .about-heading{
   align-content: center;
   color: #ffffff;
+}
+.about-para{
+  font-size: 17px;
 }
 .about-neo{
   padding: 35px 35px;
@@ -389,7 +405,7 @@ p{
   color: #88d8e5;
 }
 .contact-card{
-  margin: 60px 60px!important;
+  margin: 60px 10px!important;
   font-family: 'Arvo', serif;
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
@@ -400,8 +416,64 @@ p{
   align-self: center;
 }
 .contact-enquiry{
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  margin-bottom: 60px;
+}
+.us{
+  margin-bottom: 20px;
+  font-size: 20px!important;
+}
+.link{
+    margin-bottom: 20px;
+    font-size: 25px!important;
+    color: #9c9c9c!important;
+    border: 3px solid #88d8e5!important;
+    border-radius: 20px!important;
+    background-color: #ffffff!important;
+}
+.link:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
+}
+
+.callus{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.zoop{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.ding{
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #88d8e5;
+  cursor: pointer;
+}
+.ding:hover{
+  color: #88d8e5;
+  text-decoration: underline;
+}
+.contact-time{
+  margin-bottom: 60px;
+}
+.contact-topics{
+  font-size: 20px;
 }

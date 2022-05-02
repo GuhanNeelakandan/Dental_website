@@ -32,7 +32,7 @@ function Navbar() {
                                 <a className="nav-link" to={"project"}><img className="nav-image" src={insurance}/><br/>Insurance</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" to={"/achieve"}><img className="nav-image" src={review}/><br/>Testimonials</a>
+                                <Link className="nav-link" to={"/testimonial"}><img className="nav-image" src={review}/><br/>Testimonials</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={"contact"}><img className="nav-image" src={contact}/><br/>Contact</Link>

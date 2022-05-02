@@ -19,7 +19,6 @@ function About() {
           <div><h3 className="subhead">Our Philosophy of Care--</h3></div>
           <div><p className="about-para">Neosmile is about skill and precision.</p>
           <p className="about-para">We have the excellence to deliver the care that our patients need, and the integrity to only prescribe the care they need. With us, visiting the dentist should be a walk in the park: a safe and comfortable experience.</p>
-          <p className="about-para">We have the excellence to deliver the care that our patients need, and the integrity to only prescribe the care they need. With us, visiting the dentist should be a walk in the park: a safe and comfortable experience.</p>
           <p className="about-para"> We believe in providing options for our patients to choose from because we are in the business of care, not sales. Our patients can be assured that their welfare will never be compromised with us.</p>
           <p className="about-para">Thereby with this culture of consideration for our patients, we seek to foster a relationship of trust and naturally eliminate any fears of visiting a dentist.</p></div>
         </div>

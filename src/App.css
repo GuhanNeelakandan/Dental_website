@@ -418,7 +418,6 @@ p{
   font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Tapestry', cursive;
   color: #88d8e5;
-  text-align: center;
 }
 .contact-form{
   display: flex;
@@ -506,6 +505,10 @@ p{
 }
 .contact-topics{
   font-size: 20px;
+}
+.contact-right{
+  border: 2px solid yellow;
+  border-radius: 20px;
 }
 /* *******************************Testimonial************************************* */
 .review{

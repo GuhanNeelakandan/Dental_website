@@ -29,9 +29,6 @@ function Navbar() {
                                 <Link className="nav-link" to={"pricing"}><img className="nav-image" src={pricing}/><br/>Pricing</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" to={"project"}><img className="nav-image" src={insurance}/><br/>Insurance</a>
-                            </li>
-                            <li className="nav-item">
                                 <Link className="nav-link" to={"/testimonial"}><img className="nav-image" src={review}/><br/>Testimonials</Link>
                             </li>
                             <li className="nav-item">

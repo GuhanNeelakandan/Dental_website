@@ -1,6 +1,6 @@
 import React from 'react'
 import Animated from '../Animated'
-import Neosmile from "../Images/neosmile.png"
+import Neosmile from "../Images/neosmile.jpg"
 
 function Home() {
     return (

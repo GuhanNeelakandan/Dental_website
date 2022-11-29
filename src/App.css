@@ -3,10 +3,11 @@
 body{
   background: transparent;
   background-color: rgb(255, 255, 255);
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 #show{
   background: #88d8e5;
@@ -16,6 +17,11 @@ body{
   #show{
     display: none;
   }
+}
+.home-logo{
+  width: 23px;
+  height: 20px;
+  margin: 20px 10px;
 }
 .top-container{
   display: flex;
@@ -27,10 +33,11 @@ body{
   font-size: 15px;
   font-weight: 500;
   color: #88d8e5;
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .top-logo{
   font-size: 3rem;
@@ -74,13 +81,20 @@ body{
   position: relative;
 }
 .nav{
+  position: sticky;
+   top: 0;
+   z-index: 100;
+   /* background-color: rgb(170, 169, 169,0.3); */
+}
+.nav{
 
    top: 0;
-   background-color: rgba(255, 255, 255, 0.5);
-   font-family: 'My Soul', cursive;
+   background-color: #88d8e5;
+   /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 nav a.nav-link{
   font-weight: 500;
@@ -119,10 +133,11 @@ nav ul li{
 .bg{
   background-color: #88d8e5;
   color: #ffffff;
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 .location-img{
@@ -203,10 +218,11 @@ a #mail{
   color: #ffffff;
   padding: 55px 0 40px;
   z-index: 10;
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .about{
   display: flex;
@@ -242,10 +258,11 @@ a #mail{
   padding: 35px 35px;
   color: #9c9c9c;
   display: inline-block;
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .subhead{
   color: #88d8e5;
@@ -256,7 +273,8 @@ a #mail{
   font-size: 30px;
   font-weight: lighter;
   font-weight: 600;
-  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .with-us{
   border: 4px solid #88d8e5;
@@ -293,10 +311,11 @@ a #mail{
 }
 .service-row{
   justify-content: center;
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .service-heading{
   color: #ffffff;
@@ -348,18 +367,20 @@ a #mail{
   text-align: left;
   margin-left: 40px;
   margin-top:40px;
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .price-row{
   align-items: flex-start;
   justify-content: center;
-  font-family: 'My Soul', cursive;
+  /* font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .pricing-img{
   width: 250px;
@@ -417,19 +438,21 @@ a #mail{
 .home-heading{
   color: #ffffff;
   font-size: 30px;
-  font-family: 'Arvo', serif;
+  /* font-family: 'Arvo', serif;
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .home-info{
   font-size: 30px;
-  font-family: 'Arvo', serif;
+  /* font-family: 'Arvo', serif;
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 .neo{
   width: 478px;
@@ -442,20 +465,22 @@ a #mail{
 @media screen and (max-width: 412px) {
   .home-info{
     font-size: 20px;
-    font-family: 'Arvo', serif;
+    /* font-family: 'Arvo', serif;
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
   }
   .home-heading{
     font-size: 20px;
     margin-top: 40px;
-    font-family: 'Arvo', serif;
+    /* font-family: 'Arvo', serif;
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
   }
   .happy-img{
     width: 205px;
@@ -472,11 +497,12 @@ a #mail{
 /* ****************************contact****************************** */
 .contact-head{
   margin:60px 60px;
-  font-family: 'Arvo', serif;
+  /* font-family: 'Arvo', serif;
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
   color: #88d8e5;
 }
 .contact-form{
@@ -487,11 +513,12 @@ a #mail{
 }
 .contact-card{
   margin: 60px 10px!important;
-  font-family: 'Arvo', serif;
+  /* font-family: 'Arvo', serif;
   font-family: 'My Soul', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Tapestry', cursive;
+  font-family: 'Tapestry', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
   color: #88d8e5;
   font-size: 17px;
   align-self: center;
@@ -571,21 +598,87 @@ a #mail{
   border-radius: 20px;
 }
 /* *******************************Testimonial************************************* */
-.review{
-  padding: 20px 20px;
-}
 .review-card{
-  display: inline;
-  border: 2px solid black;
-  border-radius: 20px;
-  font-size: 18px;
-  align-self: center;
-  padding: 20px 20px;
-  margin-right:10px ;
-}
-.review-details{
+  border-right: 5px solid black;
+  border-bottom: 2px solid black;
+  margin:auto;
+  width: 250px!important;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  flex-direction: column;
-  align-self: center;
-  
 }
+/* *********************************************************************************** */
+
+/*Left Side Buttons Start*/
+.sticky-left-container{
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  left: -158px;
+  top:50%;
+  width: 200px;
+  z-index:2;
+}
+.sticky-left li{
+  list-style-type: none;
+  background-color: none;
+  color: #efefef;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+  cursor: pointer; 
+}
+.sticky-left li:hover{
+  margin-right: -150px;
+  background:#88d8e5;
+  border-radius: 25px 25px 25px 0;
+}
+.sticky-left li img{
+  float: right;
+  border-radius:50%; 
+  margin: 5px 5px;
+  margin-left: 10px;
+}
+.sticky-left li p{
+  padding: 0px;
+  float:right;
+  margin: 0px;
+  text-transform: uppercase;
+  line-height: 43px;
+  color: #000;
+}
+/*Left Side Buttons End*/
+
+/*Content Start*/
+.content{
+  margin-top: 150px;
+  margin-left: 100px;
+  width: 500px;
+}
+/* h1, h2{
+  font-family: "Source Sans Pro",sans-serif;
+  color: #ecf0f1;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 64px;
+}
+
+h2{
+  font-size:26px;
+}
+
+p{
+  color: #ecf0f1;
+  font-family: "Lato";
+  line-height: 28px;
+  font-size: 15px;
+} */

@@ -5,6 +5,8 @@ import Mail from "../Images/mail.gif"
 import Whatsapp from "../Images/whatsapp.gif"
 import Logo from "../logo.png"
 import smile from "../Images/smile.png"
+import home from "../Images/home.png"
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -14,7 +16,9 @@ function Header() {
         <div className="mt-2 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 mobile"><img className="time" src={Call} /> Call : 7200943938 <img className="time" src={Whatsapp} />8667085227</div>
         <div className="mt-2 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 mail"><img className="time" src={Mail} /> neosmiledentalomr@gmail.com</div>
       </div>
+      <Link to={'/'}><img className='float-left home-logo' src={home}/></Link>
       <div className="text-center ">
+        
         <div className="col-12">
           <img className="logo" src={smile} /><br></br>
           <h1 className="top-logo">NEOSMILE</h1>

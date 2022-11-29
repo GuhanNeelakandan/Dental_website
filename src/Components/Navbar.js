@@ -12,7 +12,7 @@ import Whatsapp from "../Images/whatsapp.gif"
 function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light nav">
+            <nav className="navbar navbar-expand-lg navbar-light sticky-top nav">
                 <div className="container nav-bar">
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span><i class="fa fa-bars" aria-hidden="true" ></i></span>
@@ -26,11 +26,11 @@ function Navbar() {
                                 <Link className="nav-link" to={"service"}><img className="nav-image" src={Service}/><br/>Services</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={"pricing"}><img className="nav-image" src={pricing}/><br/>Pricing</Link>
+                                <Link className="nav-link" to={"pricing"}><img className="nav-image" src={pricing}/><br/>Treatment</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to={"/testimonial"}><img className="nav-image" src={review}/><br/>Testimonials</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link className="nav-link" to={"contact"}><img className="nav-image" src={contact}/><br/>Contact</Link>
                             </li>

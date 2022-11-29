@@ -156,8 +156,8 @@ function Service() {
                 </div>
                 <div className="row service-row">
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 service-para">
-                        <div><h3 className="service-subhead">Full Range Of Service--</h3></div>
-                        <div>
+                        <div className='text-center'><h3 className="service-subhead">Full Range Of Service--</h3></div>
+                        <div className='text-center'>
                             <p >As a 1 stop provider of a wide range of dental services, you can be assured that you will not be referred from 1 doctor to another with no end in mind.</p>
                             <p >Below are some of the services we provide:</p>
                         </div>
